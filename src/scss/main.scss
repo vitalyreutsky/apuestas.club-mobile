@@ -1,0 +1,48 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+//подключение мелких компонентов страницы
+@import "./components/adaptive";
+@import "./components/btns";
+@import "./components/shadow";
+@import "./components/title";
+@import "./components/table";
+@import "./components/modal";
+
+//подключения основных компонентов страницы
+
+// общие стили
+@import "./components/index";
+
+// header, footer
+@import "./components/header";
+@import "./components/footer";
+
+// страница review
+@import "./components/review-banner";
+@import "./components/aside";
+@import "./components/navigation";
+@import "./components/review-info";
+@import "./components/pros-cons";
+@import "./components/bonuses";
+@import "./components/demographics";
+@import "./components/mobile";
+@import "./components/sports";
+@import "./components/license";
+@import "./components/deposits";
+@import "./components/support";
+@import "./components/verdict";
+@import "./components/faq";
+@import "./components/error";
+
+// страница bonus
+@import "./components/bonus";
+
+// страница about
+@import "./components/about";
+
+// страница контакты
+@import "./components/contacts";
