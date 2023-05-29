@@ -1,112 +1,253 @@
 <header class="header">
-  <div class="header__top">
-    <a class="header__logo" href="/"
-      ><img src="../img/logo.png" alt="" srcset="" />
+  <div class="header__content-top header-open">
+    <a href="/">
+      <picture>
+        <source srcset="img/logo.webp" type="image/webp" />
+        <img loading="lazy" src="img/logo.png" class="image" alt="Logo" />
+      </picture>
     </a>
 
-    <div class="header__menu">
-      <span>Betting</span>
-      <ul class="list-reset">
-        <li>
-          <a href="/betting-sites.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-star"></use></svg></i
-            >Betting Sites</a
-          >
-        </li>
-        <li>
-          <a href="best-betting-sites.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-cup"></use></svg></i
-            >Best Betting Sites</a
-          >
-        </li>
-        <li>
-          <a href="betting-offer.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-gift"></use></svg></i
-            >Betting Offers</a
-          >
-        </li>
-        <li>
-          <a href="free-bets.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-fire"></use></svg></i
-            >Free Bets</a
-          >
-        </li>
-        <li>
-          <a href="new-betting.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-rocket"></use></svg></i
-            >New Betting Sites</a
-          >
-        </li>
-      </ul>
-      <span>Tips</span>
-      <ul class="bg-gray list-reset">
-        <li>
-          <a href="/"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-events"></use></svg></i
-            >Predictions<span>48</span></a
-          >
-        </li>
-        <li>
-          <a href="/events.html"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-ball"></use></svg></i
-            >Events<span>864</span></a
-          >
-        </li>
-        <li>
-          <a href="/"
-            ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-              ><svg class="svg-icon">
-                <use xlink:href="./img/sprite.svg#menu-tipsters"></use></svg></i
-            >Tipsters</a
-          >
-        </li>
-      </ul>
+    <div class="header-open__btns">
+      <a href="" class="btn header-open__link">Join Now</a>
+
+      <div class="header-open__burger">
+        <button
+          class="burger"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+          data-burger
+        >
+          <span class="burger__line"></span>
+        </button>
+      </div>
     </div>
   </div>
-  <div class="header__bottom">
+  <nav
+    class="header__content-bottom header-content__nav"
+    title="Header navigation"
+  >
     <ul class="list-reset">
       <li>
-        <a href="blog.html"
-          ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-            ><svg class="svg-icon">
-              <use xlink:href="./img/sprite.svg#menu-blog"></use></svg></i
-          >Blog</a
-        >
+        <a href="betting-sites.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-tipsters"></use>
+          </svg>
+          Betting Sites
+        </a>
       </li>
+
       <li>
-        <a href="about.html"
-          ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-            ><svg class="svg-icon">
-              <use xlink:href="./img/sprite.svg#menu-i"></use></svg></i
-          >About</a
-        >
+        <a href="best-betting-sites.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-cup"></use>
+          </svg>
+          Best Bookies
+        </a>
       </li>
+
       <li>
-        <a href="contact.html"
-          ><i class="d-flex d-flex-ai-center d-flex-jc-center"
-            ><svg class="svg-icon">
-              <use xlink:href="./img/sprite.svg#menu-mail"></use></svg></i
-          >Contact
+        <a href="betting-offer.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-gift"></use>
+          </svg>
+          Betting Offers
+        </a>
+      </li>
+
+      <li>
+        <a href="free-bets.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-fire"></use>
+          </svg>
+          Free Bets
+        </a>
+      </li>
+
+      <li>
+        <a href="new-betting.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-rocket"></use>
+          </svg>
+          New Betting Sites
+        </a>
+      </li>
+
+      <li>
+        <a href="events.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-events"></use>
+          </svg>
+          Events
+        </a>
+      </li>
+
+      <li>
+        <a href="predictions.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-ball"></use>
+          </svg>
+          Predictions
+        </a>
+      </li>
+
+      <li>
+        <a href="tipsters.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-tipsters"></use>
+          </svg>
+          Tipsters
+        </a>
+      </li>
+
+      <li>
+        <a href="blog.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-blog"></use>
+          </svg>
+          Blog
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-i"></use>
+          </svg>
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="contact.html">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#menu-mail"></use>
+          </svg>
+          Contact
         </a>
       </li>
     </ul>
-    <div class="header__auth">
-      <a class="btn btn--border" href="/">Log In</a
-      ><a class="btn" href="/">Join Now</a>
+  </nav>
+  <div class="header__wrapper" data-menu>
+    <div class="header-menu">
+      <div class="header__top">
+        <a class="header__logo" href="/"
+          ><img src="../img/logo.png" alt="" srcset="" />
+        </a>
+
+        <div class="header__close">
+          <svg class="svg-icon">
+            <use xlink:href="./img/sprite.svg#left"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="header__menu">
+        <span>Betting</span>
+        <ul class="list-reset">
+          <li>
+            <a href="/betting-sites.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-star"></use></svg></i
+              >Betting Sites</a
+            >
+          </li>
+          <li>
+            <a href="best-betting-sites.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-cup"></use></svg></i
+              >Best Betting Sites</a
+            >
+          </li>
+          <li>
+            <a href="betting-offer.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-gift"></use></svg></i
+              >Betting Offers</a
+            >
+          </li>
+          <li>
+            <a href="free-bets.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-fire"></use></svg></i
+              >Free Bets</a
+            >
+          </li>
+          <li>
+            <a href="new-betting.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-rocket"></use></svg></i
+              >New Betting Sites</a
+            >
+          </li>
+        </ul>
+        <span>Tips</span>
+        <ul class="bg-gray list-reset">
+          <li>
+            <a href="/"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-events"></use></svg></i
+              >Predictions<span>48</span></a
+            >
+          </li>
+          <li>
+            <a href="/events.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-ball"></use></svg></i
+              >Events<span>864</span></a
+            >
+          </li>
+          <li>
+            <a href="/"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use
+                    xlink:href="./img/sprite.svg#menu-tipsters"
+                  ></use></svg></i
+              >Tipsters</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__bottom">
+        <ul class="list-reset">
+          <li>
+            <a href="blog.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-blog"></use></svg></i
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="about.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-i"></use></svg></i
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="contact.html"
+              ><i class="d-flex d-flex-ai-center d-flex-jc-center"
+                ><svg class="svg-icon">
+                  <use xlink:href="./img/sprite.svg#menu-mail"></use></svg></i
+              >Contact
+            </a>
+          </li>
+        </ul>
+        <div class="header__auth">
+          <a class="btn btn--border" href="/">Log In</a
+          ><a class="btn" href="/">Join Now</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>

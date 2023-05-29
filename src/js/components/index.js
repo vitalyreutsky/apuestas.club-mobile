@@ -5,7 +5,7 @@ function initSwiper() {
   new Swiper(".banner__slider", {
     spaceBetween: 16,
     autoHeight: !0,
-    slidesPerView: "auto",
+    slidesPerView: 1.6,
     centeredSlides: !0,
     loop: !0,
     autoplay: { delay: 2500, disableOnInteraction: !1 },

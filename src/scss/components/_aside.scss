@@ -16,7 +16,7 @@
 .critics {
   position: relative;
   border-radius: 8px;
-  padding: 18px 15px 16px;
+  padding: 10px;
   &__content {
     p {
       color: var(--basic);
@@ -40,12 +40,13 @@
     padding: 6px 10px 7px;
   }
   .author {
+    display: flex;
+    gap: 10px;
     margin-bottom: 8px;
     &__avatar {
       position: relative;
-      width: 48px;
-      height: 48px;
-      margin-right: 10px;
+      width: 42px;
+      height: 42px;
       img {
         border-radius: 50%;
       }
@@ -58,13 +59,22 @@
       }
     }
     &__info {
-      p {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      .h4 {
+        font-size: 13px;
+        line-height: 20.2px;
         margin: 0;
+      }
+      .p3 {
+        font-size: 11px;
+        line-height: 13.2px;
       }
     }
   }
   &__info {
-    margin-top: 16px;
+    display: flex;
   }
   &__info-item {
     padding: 0 10px;
@@ -85,6 +95,9 @@
         color: var(--basic);
         margin-top: 3px;
       }
+    }
+    .value {
+      font-size: 13px;
     }
   }
 }

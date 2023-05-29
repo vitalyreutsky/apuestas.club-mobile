@@ -1,6 +1,3 @@
-// Реализация бургер-меню
-// import { burger } from './functions/burger';
-
 // import { validateForms } from './functions/validate-forms';
 // const rules1 = [...];
 
