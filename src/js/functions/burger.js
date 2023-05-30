@@ -15,7 +15,7 @@ import { enableScroll } from "../functions/enable-scroll";
       burger?.setAttribute("aria-expanded", "true");
       burger?.setAttribute("aria-label", "Close menu");
 
-      menu.closest(".header").classList.add("overlay");
+      overlay?.classList.add("overlay--active");
 
       disableScroll();
     }
@@ -28,22 +28,14 @@ import { enableScroll } from "../functions/enable-scroll";
       burger?.setAttribute("aria-expanded", "true");
       burger?.setAttribute("aria-label", "Close menu");
 
-      menu.closest(".header").classList.remove("overlay");
-
       disableScroll();
     } else {
       burger?.setAttribute("aria-expanded", "false");
       burger?.setAttribute("aria-label", "Open menu");
-      menu.closest(".header").classList.remove("overlay");
+      overlay?.classList.remove("overlay--active");
+
       enableScroll();
     }
-  });
-
-  overlay?.addEventListener("click", () => {
-    burger?.setAttribute("aria-expanded", "false");
-    burger?.setAttribute("aria-label", "Open menu");
-    menu.classList.remove("menu--active");
-    enableScroll();
   });
 
   menuItems?.forEach((el) => {
