@@ -4,7 +4,6 @@ Swiper.use([Navigation, Pagination, Keyboard]);
 function initSwiper() {
   new Swiper(".banner__slider", {
     spaceBetween: 16,
-    autoHeight: !0,
     slidesPerView: 1.6,
     centeredSlides: !0,
     loop: !0,
