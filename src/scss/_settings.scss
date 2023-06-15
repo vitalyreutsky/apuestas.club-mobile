@@ -1,10 +1,13 @@
 body {
+  font-family: var(--font-family-SF-Pro-Text-Regular);
   background-color: var(--bg-page);
   position: inherit !important;
+  font-weight: 400;
+  color: #000;
 }
 
 * {
-  font-family: var(--font-family-SF-Pro-Text-Regular, sans-serif);
+  font-family: var(--font-family-SF-Pro-Text-Regular);
   color: var(--gray-text);
   box-sizing: border-box;
 }
