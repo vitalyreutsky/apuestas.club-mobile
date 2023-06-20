@@ -29,6 +29,8 @@
   }
 
   &-menu {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     overflow-y: scroll;
@@ -50,6 +52,7 @@
     height: auto;
   }
   &__menu {
+    flex: 1 1 auto;
     margin-top: 28px;
     span {
       color: var(--gray-text);

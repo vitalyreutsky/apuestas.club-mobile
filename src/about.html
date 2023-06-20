@@ -6,12 +6,14 @@
 
   <body>
     <div class="page-wrapper">
-      <div>@include('partials/header.html')</div>
-      <div>
-        <div class="aside-wrapper about__wrapper">
-          @include('partials/about.html')
+      <div class="site__container">
+        <div>@include('partials/header.html')</div>
+        <div>
+          <div class="aside-wrapper about__wrapper">
+            @include('partials/about.html')
+          </div>
+          @include('partials/footer.html')
         </div>
-        @include('partials/footer.html')
       </div>
     </div>
   </body>
