@@ -1,50 +1,18 @@
-/* stylelint-disable */
-
+//Брейкпоинты для проектов
 @mixin for-desktop {
-  @media (min-width: (1025px)) {
-    @content;
-  }
-}
-
-@mixin big-desktop {
-  @media (max-width: (1440px)) {
+  @media (min-width: (1200px)) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (max-width: (1024px)) {
-    @content;
-  }
-}
-
-@mixin small-tablet {
-  @media (max-width: (768px)) {
+  @media only screen and (max-width: 1200px) and (max-aspect-ratio: 1024/695) {
     @content;
   }
 }
 
 @mixin mobile {
-  @media (max-width: (576px)) {
+  @media only screen and (max-width: (600px)) {
     @content;
   }
 }
-
-//Брейкпоинты для проектов
-//@mixin for-desktop {
-//  @media (min-width: (1200px)) {
-//    @content;
-//  }
-//}
-
-//@mixin tablet {
-//  @media only screen and (max-width: 1200px) and (max-aspect-ratio: 1024/695) {
-//    @content;
-//  }
-//}
-
-//@mixin mobile {
-//  @media only screen and (max-width: (600px)) {
-//    @content;
-//  }
-//}
